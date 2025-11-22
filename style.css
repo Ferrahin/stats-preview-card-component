@@ -24,7 +24,7 @@ section.insights-section {
 
 section.photo-section {
     width: 100%;
-    max-width: 350px;
+    max-width: 360px;
 }
 
 img.image-header-desktop {
@@ -112,15 +112,28 @@ small {
     }
 
     .image-header-mobile {
-        height: 100%;
+        display: block;
         width: 100%;
-        object-fit: cover;
+        height: 100%;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
 
     .image-header-desktop {
         display: none;
+    }
+
+    section.insights-section {
+        border-radius: 0 0 5px 5px;
+    }
+
+    section.photo-section {
+        border-radius: 5px 5px 0 0;
+       
+    }
+
+    .overlay {
+        border-radius: 5px 5px 0 0;
     }
 }
 
